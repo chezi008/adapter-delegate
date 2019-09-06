@@ -1,4 +1,7 @@
 # 修改AdapterDelegates开源项目
+
+[![](https://jitpack.io/v/chezi008/adapter-delegate.svg)](https://jitpack.io/#chezi008/adapter-delegate)
+
 开源项目地址：https://github.com/sockeqwe/AdapterDelegates
 
 发现该开源项目扩展性似乎有点差，里面没有可以扩展的接口。有点搞不下去了。于是有了重构的想法了,这种想法是不是太邪恶了？
@@ -12,7 +15,9 @@
 ## Dependencies
 This library is available on maven central:
 ```
-compile 'com.ibbhub.android:adapterdelegate:1.0.0'
+dependencies {
+	        implementation 'com.github.chezi008:adapter-delegate:1.0.3'
+	}
 ```
 
 ## 使用说明
